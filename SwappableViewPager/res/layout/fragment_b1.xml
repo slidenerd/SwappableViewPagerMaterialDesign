@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="slidenerd.vivz.swappableviewpager.B1" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button_navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/click_to_navigate"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="B1 Fragment Here"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+</FrameLayout>
