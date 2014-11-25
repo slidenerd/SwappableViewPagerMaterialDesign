@@ -3,15 +3,4 @@ SwappableViewPagerMaterialDesign
 
 This repository contains a ViewPager with Fragments which can be swapped within a tab on button click. 
 
-TAB 1---
-     ---A1
-     ---A2
-     ---A3
-TAB 2---
-      --B1
-      --B2
-      --B3
-TAB 3---
-      --C1
-      --C2
-      --C3
+Our sample demo has a MainActivity with a Fragment inside it occupying full space called TabbedFragment. This TabbedFragment supports 3 tabs where each tab has 3 fragments in it. TAB1=A1,A2,A3..and so on. All Fragments A1..C3 use a FrameLayout with a common ID which can be replaced. Each Fragment supports a button when when clicked starts a FragmentTransaction to replace it with the next Fragment. The Activity tracks onBackPressed() and forwards it all the appropriate fragments and awaits their response.
